@@ -1,0 +1,36 @@
+Name of team members:
+Apurva Gandhi - Id #0625994
+Daniel I Gilbert - Id #0630494
+Brendan Sheedy - Id #0629070
+Yusi Yao -ID #0631538
+
+Name of robot: 
+Marvin
+
+Description of our activity:
+
+We will have our robot enter a maze and successfully reach the exit while knocking down small objects (paper stick figures) along the way. The robot will play a song and light up when it hits a wall.
+
+5 functions we plan to use from iRobot.h
+
+1: KillSong();
+
+	We will use this function to stop playing the song once the robot has finished 		turning after hitting a wall.
+
+2: PlaySong();
+
+	We will use this function to play a song when the robot hits a wall.
+
+3: SetRobotLEDs();
+
+	We will use this function to light up the LEDs on the robot when it hits a wall.
+
+4: IsEitherBumperPressed();
+
+	We will use this function to have the robot take a series of turns once it has hit 		a wall.
+
+5: WaitForBump();
+   Straight();
+   Turn();
+
+	We will use all three of these functions for driving the robot through the maze.
